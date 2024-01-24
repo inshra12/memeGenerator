@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(19, 19, 19);
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+.header .logo{
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    top: 10px;
+    left: 36%;
+}
+.header h1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 10px;
+}
+.meme{
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    /* background-color: rgb(235, 140, 140); */
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   
+}
+.meme .memeGenerate{
+    position: relative;
+    left: 45%;
+    top: 15px;
+    border: 2px solid rgb(5, 91, 149);
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 3px 3px 3px 3px rgb(38, 130, 192) ;
+    background-color: rgb(5, 91, 149);
+    width: 150px;
+    height: 40px;
+    transition: all 400ms ease;
+   
+   
+}
+.meme .memeGenerate:hover{
+    background-color: rgb(0, 42, 70);
+    box-shadow: 3px 3px 3px 3px rgb(7, 65, 103);;
+}
+.meme h2{
+    position: relative;
+    top: 35px;
+    color: white;
+}
+.meme .meme-author{
+    background-color: rgb(4, 6, 7);
+    position: relative;
+    top: 75px;
+    color: white;
+}
+.meme .memeimg{
+    width: 50vw;
+    max-height: 65vh;
+    position: relative;
+    left: 25%;
+    top:10%;
+    object-fit:fill;
+   
+}
